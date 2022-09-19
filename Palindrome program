@@ -1,0 +1,11 @@
+str1=input("Enter your word: ")
+print("Your word: ",str1)
+str2=''
+for i in str1:
+    str2=i+str2
+    
+print("Your word reversed: ",str2)
+if str2==str1:
+    print("Success! Your word is a Palindrome")
+else:
+    print("Fail! Your word is not a Palindrome")
